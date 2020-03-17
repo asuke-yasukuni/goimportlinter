@@ -22,6 +22,10 @@ func main() {
 	// フラグでないコマンドライン引数へのアクセス
 	dirArg := flag.Arg(0)
 
+	if dirArg == "" {
+		log.Fatal("please make a folder or file.")
+	}
+
 	dir, err := filepath.Abs(dirArg)
 	if err != nil {
 		log.Fatal(err)
