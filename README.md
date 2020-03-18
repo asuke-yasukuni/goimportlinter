@@ -5,7 +5,7 @@ warn if newline count in imports is greater than or equal to the number passed t
 ## Insall
 
 ```
-go get -u github.com:asuke-yasukuni/goimportlinter.git
+go get -u github.com/asuke-yasukuni/goimportlinter
 ```
 
 ## How to use
